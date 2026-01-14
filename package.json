@@ -1,0 +1,29 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "React app",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ineverydomain/namasteReact.git"
+  },
+  "keywords": [],
+  "author": "Anuj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ineverydomain/namasteReact/issues"
+  },
+  "homepage": "https://github.com/ineverydomain/namasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "browserslist": []
+}
