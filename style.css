@@ -1,0 +1,102 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 110px;
+  height: 110px;
+}
+
+.nav-items ul {
+  font-size: large;
+  display: flex;
+  list-style-type: none;
+  padding: 0 20px;
+  padding-top: 5px;
+}
+
+.nav-items ul li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.res-card {
+  width: 200px;
+  border: 1px solid gray;
+  background-color: #f0f0f0;
+  /* height: 270px; */
+  border-radius: 15px;
+  text-align: center;
+  margin: 20px 20px;
+  padding: 3px;
+}
+
+.res-card:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+.card-content {
+  display: block;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.card-content h3,
+.card-content h4 {
+  margin: 4px 4px;
+}
+
+.price-and-rating {
+  /* margin: 20px; */
+  margin-top: 0;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  /* margin-top: 10px; */
+  display: flex;
+  margin-left: 10px;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-card h3 {
+  margin: 2px;
+}
+
+.food-img {
+  width: 100%;
+  height: 160px;
+  border-radius: 18px;
+  /* padding-top: 8px; */
+}
+
+.search {
+  padding: 10px 10px;
+}
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.shimmerContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmerCard {
+  height: 300px;
+  width: 180px;
+  display: flex;
+  /* flex-wrap: wrap; */
+
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+.filter {
+  display: flex;
+}
